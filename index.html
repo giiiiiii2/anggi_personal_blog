@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas web 3: Membuat web</title>
+    <link rel="shortcut icon" href="img/icon-kitty.png" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Anggita's Blog</h1>
+      <nav>
+        <ul class="container-menu">
+          <li><a href="#home" class="menu-item">Home</a></li>
+          <li><a href="#about" class="menu-item">About Me</a></li>
+          <li><a href="#contact" class="menu-item">Contact</a></li>
+          <li><a href="#news" class="menu-item">News</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="row-content">
+        <div class="column-content-1">
+          <section id="home" class="sub-menu-1">
+            <h2>Recent Posts</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+              rerum nostrum, et eius vero omnis debitis soluta nam explicabo
+              magni cum nemo sunt quasi. Adipisci accusamus eum nostrum delectus
+              consectetur.
+            </p>
+          </section>
+          <section id="about" class="sub-menu-2">
+            <h2>About Me</h2>
+            <figure class="profile-section">
+              <img
+                src="img/anggi.jpg"
+                alt="Anggita Setiawati"
+                class="profile-image"
+              />
+              <figcaption>
+                Hi, I'm Anggita Setiawati, a passionate blogger and tech
+                enthusiast. I love sharing my thoughts on the latest trends in
+                technology, lifestyle, and personal development.
+              </figcaption>
+            </figure>
+            <div class="video-section">
+              <h3>My favorite pet</h3>
+              <video
+                muted
+                src="video/video_lucu_kucing.mp4"
+                controls
+                poster="bali_thumbnail.jpg"
+              ></video>
+            </div>
+          </section>
+          <section id="contact" class="sub-menu-3">
+            <h2>Contact</h2>
+            <div class="contact-content">
+              <h3>Let's Connect!</h3>
+              <p>
+                I'd love to hear from you. Feel free to reach out through any of
+                these channels:
+              </p>
+              <div class="contact-info">
+                <p>
+                  <i class="fas fa-envelope"></i> Email: anggita@example.com
+                </p>
+                <p><i class="fas fa-phone"></i> Phone: +1 (555) 123-4567</p>
+              </div>
+              <div class="social-media">
+                <a
+                  href="https://facebook.com/anggitasblog"
+                  class="social-icon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a
+                  href="https://twitter.com/anggitasblog"
+                  class="social-icon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a
+                  href="https://instagram.com/anggitasblog"
+                  class="social-icon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a
+                  href="https://linkedin.com/in/anggitasetiawati"
+                  class="social-icon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+              <form class="contact-form">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Your Name"
+                  required
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                />
+                <textarea
+                  name="message"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+                <button type="submit">Send Message</button>
+              </form>
+            </div>
+          </section>
+        </div>
+        <div class="column-content-2">
+          <h2>Latest News</h2>
+          <div class="news-card">
+            <img src="img/prabowo-gibran.png" alt="News 1" class="news-image" />
+            <div class="news-content">
+              <h3>
+                Prabowo-Gibran Resmi Jadi Presiden dan Wapres RI 2024-2029
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                earum possimus vero iste tempore deleniti maxime fugit.
+              </p>
+            </div>
+          </div>
+          <div class="news-card">
+            <img
+              src="img/Messi-bawa-inter-Miami-juara-ke.jpg"
+              alt="News 2"
+              class="news-image"
+            />
+            <div class="news-content">
+              <h3>
+                Lionel Messi Bawa Inter Miami Lolos Piala Dunia Klub 2025, Beri
+                Komentar Cetak Sejarah di MLS
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                earum possimus vero iste tempore deleniti maxime fugit.
+              </p>
+            </div>
+          </div>
+          <div class="news-card">
+            <img
+              src="img/YOONGI.jpeg"
+              alt="News 3"
+              class="news-image news-image-3"
+            />
+            <div class="news-content">
+              <h3>
+                WE LOVE YOU YOONGI Trending Usai Agensi Umumkan Pendaftaran
+                Wamil Suga BTS
+              </h3>
+              <p>
+                Description for the third news item. This gives readers a quick
+                idea of the story's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer><p>Copyright © 2024 Anggita Setiawati</p></footer>
+  </body>
+</html>
